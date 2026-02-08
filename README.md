@@ -15,6 +15,13 @@ my personal arch linux rice using:
 
 ## 🚀 install
 
+before the installation, please install and change your shell to fish
+```
+sudo pacman -S fish
+chsh -s /usr/bin/fish
+```
+then just run 
+
 ```bash
 git clone https://github.com/larptekk/dotfiles
 cd dotfiles
