@@ -27,7 +27,7 @@ chmod +x install.sh
 ./install.sh
 ```
 
-## uninstall
+## 🗑️ uninstall
 ```bash
 cd dotfiles
 ./uninstall.sh
