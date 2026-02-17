@@ -1,8 +1,0 @@
-[wofi]
-# basic appearance
-theme=~/.config/wofi/feel.css
-show-icons=true
-columns=1
-rows=10
-font=monospace 12
-terminal=false
