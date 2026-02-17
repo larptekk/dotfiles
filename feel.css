@@ -1,0 +1,56 @@
+* {
+font-family: "JetBrains Mono", monospace;
+color: #ffffff;
+}
+
+window {
+    background-color: rgba(30, 30, 30, 0.6);  /* Semi-transparent background */
+    border-radius: 12px;
+    border: 1px solid #444;
+    backdrop-filter: blur(10px);  /* Apply the blur effect */
+}
+
+list {
+    padding: 10px;
+    margin: 0;
+}
+
+item {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    margin: 3px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: background-color 0.2s ease;
+}
+
+item.selected {
+    background-color: #1abc9c;  /* Teal color for selected item */
+}
+
+item:hover {
+    background-color: #3c3c3c;
+}
+
+item img {
+    margin-right: 12px;
+    width: 24px;
+    height: 24px;
+}
+
+entry {
+    color: #ffffff;
+    padding: 10px;
+    margin: 6px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+entry:hover {
+    background-color: #3c3c3c;
+}
+
+entry.selected {
+    background-color: #4f4f4f;
+}
