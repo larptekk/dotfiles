@@ -29,9 +29,3 @@ cp ~/dotfiles/hyprland.conf ~/.config/hypr/
 cp ~/dotfiles/feel.css ~/.config/wofi/
 ```
 
-to change the wallpaper, open your favourite text editor and go into `~/.config/hypr/hyprland.conf`. mine is `nano`
-find these lines: 
-`exec-once = waybar & swww-daemon
-exec-once = swww img ~/wallpaper.jpg`
-replace ~/wallpaper.jpg with your wallpaper path
-
